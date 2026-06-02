@@ -1,0 +1,4 @@
+EXPORT_MODEL.ipynb
+backend/bin
+backend/.vs
+backend/obj
