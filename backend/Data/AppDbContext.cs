@@ -34,6 +34,7 @@ public class AppDbContext : DbContext
             e.Property(a => a.Id).HasColumnName("id");
             e.Property(a => a.UserId).HasColumnName("user_id");
             e.Property(a => a.Filename).HasColumnName("filename").HasMaxLength(255);
+            e.Property(a => a.ImagePath).HasColumnName("image_path").HasMaxLength(500);  
             e.Property(a => a.ImageWidth).HasColumnName("image_width");
             e.Property(a => a.ImageHeight).HasColumnName("image_height");
             e.Property(a => a.CreatedAt).HasColumnName("created_at");
